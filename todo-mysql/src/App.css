@@ -59,7 +59,14 @@ button span {
 }
 
 li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-align: left;
   position: relative;
-  padding: 0.5rem;
+  padding: 1rem;
+}
+
+.checked {
+  text-decoration: line-through;
 }
