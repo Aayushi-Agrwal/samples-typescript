@@ -64,9 +64,31 @@ li {
   align-items: center;
   text-align: left;
   position: relative;
-  padding: 1rem;
 }
 
 .checked {
   text-decoration: line-through;
+}
+
+.editBox {
+  height: 4rem;
+  padding: 1rem;
+  position: absolute;
+  margin-left: 12rem;
+  z-index: 5;
+  border-radius: 10%;
+  background-color: white;
+}
+
+.editBoxList {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.editBoxListItem {
+  display: flex;
+  gap: 1rem;
+  justify-content: left;
+  padding: 0;
 }
